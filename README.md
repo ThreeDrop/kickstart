@@ -1,5 +1,6 @@
 # kickstart
-practice for kickstart 2020 
+
+Python solution for kickstart 2020 
 
 round A - allocation:
 ```Python 
