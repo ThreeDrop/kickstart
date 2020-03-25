@@ -19,7 +19,7 @@ for i in range(T):
     print("Case #{}: {}".format(i+1, dp[N-1][P])) 
 ```   
 
-round B - plates: 
+round A - plates: 
 ```Python 
 T=int(input())
 for i in range(T):
