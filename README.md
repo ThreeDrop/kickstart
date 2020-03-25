@@ -51,12 +51,12 @@ for i in range(T):
     di_max=max(sess_diff)
     ll=1
     rr=di_max
-    while ll<rr: # 1<50 mid=25 
+    while ll<rr: 
         mid=int((ll+rr)/2)
         if sum(map(lambda x: math.ceil(x/mid)-1,sess_diff)) <= K:
             rr=mid
         else:
-            ll=mid+1 # ll=50
+            ll=mid+1 
     ans=ll
 
     print("Case #{}: {}".format(i+1, ans)) 
